@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Deepthink SEO</title>
+    <link rel="stylesheet" href="/styles.css">
+    <style>
+        body {
+            background: #f8f6ff;
+        }
+        .contact-main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 48px;
+            max-width: 1100px;
+            margin: 64px auto 0 auto;
+            padding: 0 16px;
+        }
+        .contact-info-panel {
+            flex: 1 1 340px;
+            max-width: 480px;
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 4px 24px rgba(124,58,237,0.07);
+            padding: 38px 32px 32px 32px;
+            margin-bottom: 32px;
+        }
+        .contact-info-panel h1 {
+            font-size: 2.1rem;
+            font-weight: 900;
+            margin-bottom: 18px;
+            color: #222;
+        }
+        .contact-info-panel .highlight {
+            background: #a78bfa;
+            color: #fff;
+            border-radius: 8px;
+            padding: 0 8px;
+            font-weight: 900;
+        }
+        .contact-info-panel ul {
+            margin: 18px 0 0 0;
+            padding: 0 0 0 18px;
+            color: #444;
+            font-size: 1.08rem;
+        }
+        .contact-info-panel ul li {
+            margin-bottom: 10px;
+        }
+        .contact-info-panel .back-link {
+            display: inline-block;
+            margin-top: 32px;
+            color: #7c3aed;
+            font-weight: 700;
+            text-decoration: none;
+            font-size: 1.05rem;
+        }
+        .contact-form-card {
+            flex: 1 1 340px;
+            max-width: 420px;
+            background: #2d0066;
+            border-radius: 20px;
+            box-shadow: 0 4px 24px rgba(124,58,237,0.13);
+            padding: 38px 32px 32px 32px;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .contact-form-card h2 {
+            font-size: 1.4rem;
+            font-weight: 900;
+            margin-bottom: 24px;
+            color: #fff;
+        }
+        .contact-form {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            border: none;
+            border-radius: 8px;
+            padding: 13px 14px;
+            font-size: 1rem;
+            background: #f8f6ff;
+            color: #222;
+            transition: box-shadow 0.2s;
+            outline: none;
+            resize: none;
+        }
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            box-shadow: 0 0 0 2px #a78bfa;
+            background: #fff;
+        }
+        .contact-form textarea {
+            min-height: 80px;
+            max-height: 200px;
+        }
+        .cta-button {
+            background: #a78bfa;
+            color: #fff;
+            padding: 13px 28px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 1.08rem;
+            border: none;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .cta-button:hover {
+            background: #7c3aed;
+        }
+        .privacy-note {
+            font-size: 0.98rem;
+            color: #e0e0e0;
+            margin-top: 8px;
+            text-align: center;
+        }
+        @media (max-width: 900px) {
+            .contact-main {
+                flex-direction: column;
+                gap: 28px;
+                align-items: stretch;
+            }
+            .contact-info-panel, .contact-form-card {
+                max-width: 100%;
+                min-width: 0;
+                padding: 28px 12px 22px 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-main">
+        <div class="contact-info-panel">
+            <h1>Strategies Built for <span class="highlight">Your Business</span></h1>
+            <p>Fill in the form to see how we can help you reach your business goals in 2025.</p>
+            <ul>
+                <li>96% satisfaction rating and 3+ year avg tenure with clients</li>
+                <li>#1 agency for SEO results in our region</li>
+                <li>Seamless integration with your marketing stack</li>
+                <li>Transparent reporting and measurable ROI</li>
+            </ul>
+            <a href="/" class="back-link">&larr; Back to Home</a>
+        </div>
+        <div class="contact-form-card">
+            <h2>Contact Deepthink SEO</h2>
+            <form class="contact-form" action="https://formspree.io/f/xdkdnrgp" method="POST">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="company">Company</label>
+                    <input type="text" id="company" name="company" placeholder="Your Company" required>
+                </div>
+                <div class="form-group">
+                    <label for="website">Website</label>
+                    <input type="text" id="website" name="website" placeholder="yourwebsite.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="(555) 555-5555" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Comments or Questions</label>
+                    <textarea id="message" name="message" placeholder="Anything else we should know?"></textarea>
+                </div>
+                <button type="submit" class="cta-button">Get SEO Proposal</button>
+                <p class="privacy-note">We respect your privacy. Your information will never be shared.</p>
+                <div id="form-success" style="display:none;color:#4ade80;margin-top:12px;text-align:center;">Thank you! Your message has been sent.</div>
+            </form>
+        </div>
+    </div>
+</body>
+</html> 
