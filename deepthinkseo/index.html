@@ -1,9 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-01JZXEQ2PT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-01JZXEQ2PT');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deepthink Technologies | Utah SEO Experts</title>
+    <meta name="description" content="Deepthink Technologies is Utah's leading SEO agency, specializing in organic search, local SEO, content marketing, and technical optimization. Boost your rankings and revenue with proven strategies.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://deepthinkseo.online/">
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Deepthink Technologies | Utah SEO Experts">
+    <meta property="og:description" content="Utah's top SEO agency for organic growth, local SEO, and technical optimization. Get your free SEO proposal today!">
+    <meta property="og:url" content="https://deepthinkseo.online/">
+    <meta property="og:image" content="https://deepthinkseo.online/images/logo/logo.png">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Deepthink Technologies | Utah SEO Experts">
+    <meta name="twitter:description" content="Utah's top SEO agency for organic growth, local SEO, and technical optimization. Get your free SEO proposal today!">
+    <meta name="twitter:image" content="https://deepthinkseo.online/images/logo/logo.png">
+    <!-- Favicons & Icons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/logo/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/images/logo/android-chrome-512x512.png">
+    <link rel="shortcut icon" href="/images/logo/favicon.ico">
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Deepthink Technologies",
+      "url": "https://deepthinkseo.online/",
+      "logo": "https://deepthinkseo.online/images/logo/logo.png",
+      "contactPoint": [{
+        "@type": "ContactPoint",
+        "telephone": "+1-385-213-2993",
+        "contactType": "customer service",
+        "email": "Jeremy@JeremyLaFaver.net"
+      }],
+      "sameAs": [
+        "https://deepthinkai.app"
+      ]
+    }
+    </script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -41,6 +89,12 @@
                         <input type="text" name="website" id="hero-website-input" placeholder="Enter your website">
                         <button type="submit" class="cta-button">Get SEO Proposal &rarr;</button>
                     </form>
+                    <script>
+                      document.getElementById('hero-seo-form').addEventListener('submit', function(e) {
+                        e.preventDefault();
+                        window.location.href = '/contact.html';
+                      });
+                    </script>
                 </div>
                 <div class="hero-image hero-image-rounded">
                     <img src="images/pexels-kindelmedia-7688336.jpg" alt="SEO Team" />

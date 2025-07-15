@@ -1,0 +1,26 @@
+{
+  "name": "Deepthink SEO",
+  "short_name": "DeepthinkSEO",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f172a",
+  "description": "Utah's top-notch SEO agency for organic growth, local SEO, and technical optimization.",
+  "icons": [
+    {
+      "src": "/images/logo/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ]
+} 
