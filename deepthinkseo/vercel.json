@@ -1,8 +1,5 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "installCommand": "npm install",
-  "framework": "vite",
+  "framework": null,
   "rewrites": [
     {
       "source": "/content-marketing-seo-success-2025",
@@ -31,6 +28,10 @@
     {
       "source": "/contact",
       "destination": "/public/contact.html"
+    },
+    {
+      "source": "/",
+      "destination": "/index.html"
     },
     {
       "source": "/(.*)",
