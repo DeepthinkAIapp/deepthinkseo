@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme System Demo - Deepthink SEO</title>
+    <link rel="stylesheet" href="public/styles.css">
+    <link rel="stylesheet" href="public/theme.css">
+    <style>
+        .demo-section {
+            padding: 4rem 0;
+            border-bottom: 1px solid var(--border-light);
+        }
+        
+        .demo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .demo-card {
+            background: var(--bg-secondary);
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px var(--shadow-light);
+            transition: all 0.3s ease;
+        }
+        
+        .demo-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 32px var(--shadow-medium);
+        }
+        
+        .color-swatch {
+            width: 60px;
+            height: 60px;
+            border-radius: 8px;
+            margin: 0.5rem;
+            display: inline-block;
+            border: 2px solid var(--border-light);
+        }
+        
+        .color-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+        
+        .color-item {
+            text-align: center;
+        }
+        
+        .color-name {
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            margin-top: 0.5rem;
+        }
+        
+        .interactive-demo {
+            min-height: 200px;
+            background: var(--bg-tertiary);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 2rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .demo-button {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin: 0.5rem;
+        }
+        
+        .demo-button:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+        }
+        
+        .demo-input {
+            background: var(--bg-secondary);
+            border: 2px solid var(--border-light);
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            color: var(--text-primary);
+            margin: 0.5rem;
+            transition: border-color 0.3s ease;
+        }
+        
+        .demo-input:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+        
+        .animation-demo {
+            width: 100px;
+            height: 100px;
+            background: var(--primary);
+            border-radius: 50%;
+            margin: 2rem auto;
+            animation: bounce 2s infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-30px);
+            }
+            60% {
+                transform: translateY(-15px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header sticky">
+        <div class="container header-flex">
+            <div class="logo">
+                <img src="/public/images/logo/logo.png" alt="Deepthink SEO Logo" class="logo-img" />
+                <span class="logo-text">DEEPTHINK <span class="logo-accent">SEO</span></span>
+            </div>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="#colors">Colors</a></li>
+                    <li><a href="#components">Components</a></li>
+                    <li><a href="#animations">Animations</a></li>
+                    <li><a href="#tracer">Mouse Tracer</a></li>
+                </ul>
+            </nav>
+            <a href="/index.html" class="cta-header">Back to Site</a>
+        </div>
+    </header>
+
+    <main style="margin-top: 100px;">
+        <section class="hero ai-hero">
+            <div class="container">
+                <h1 class="hero-title">
+                    Theme System <span class="highlight">Demo</span>
+                </h1>
+                <p class="hero-sub">
+                    Explore the comprehensive theme system, color palette, and interactive mouse tracer effects.
+                </p>
+            </div>
+        </section>
+
+        <section class="demo-section" id="colors">
+            <div class="container">
+                <h2>🎨 Color Palette</h2>
+                <p>Our theme system uses CSS custom properties for consistent colors across the entire application.</p>
+                
+                <div class="demo-grid">
+                    <div class="demo-card">
+                        <h3>Primary Colors</h3>
+                        <div class="color-grid">
+                            <div class="color-item">
+                                <div class="color-swatch" style="background: var(--primary);"></div>
+                                <div class="color-name">Primary</div>
+                            </div>
+                            <div class="color-item">
+                                <div class="color-swatch" style="background: var(--primary-dark);"></div>
+                                <div class="color-name">Primary Dark</div>
+                            </div>
+                            <div class="color-item">
+                                <div class="color-swatch" style="background: var(--primary-light);"></div>
+                                <div class="color-name">Primary Light</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="demo-card">
+                        <h3>Background Colors</h3>
+                        <div class="color-grid">
+                            <div class="color-item">
+                                <div class="color-swatch" style="background: var(--bg-primary);"></div>
+                                <div class="color-name">BG Primary</div>
+                            </div>
+                            <div class="color-item">
+                                <div class="color-swatch" style="background: var(--bg-secondary);"></div>
+                                <div class="color-name">BG Secondary</div>
+                            </div>
+                            <div class="color-item">
+                                <div class="color-swatch" style="background: var(--bg-tertiary);"></div>
+                                <div class="color-name">BG Tertiary</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="demo-card">
+                        <h3>Status Colors</h3>
+                        <div class="color-grid">
+                            <div class="color-item">
+                                <div class="color-swatch" style="background: var(--success);"></div>
+                                <div class="color-name">Success</div>
+                            </div>
+                            <div class="color-item">
+                                <div class="color-swatch" style="background: var(--warning);"></div>
+                                <div class="color-name">Warning</div>
+                            </div>
+                            <div class="color-item">
+                                <div class="color-swatch" style="background: var(--error);"></div>
+                                <div class="color-name">Error</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="demo-section" id="components">
+            <div class="container">
+                <h2>🧩 Component Examples</h2>
+                <p>See how the theme system applies to various UI components.</p>
+                
+                <div class="demo-grid">
+                    <div class="demo-card">
+                        <h3>Buttons</h3>
+                        <button class="demo-button">Primary Button</button>
+                        <button class="demo-button" style="background: var(--success);">Success Button</button>
+                        <button class="demo-button" style="background: var(--warning);">Warning Button</button>
+                    </div>
+                    
+                    <div class="demo-card">
+                        <h3>Form Elements</h3>
+                        <input type="text" class="demo-input" placeholder="Enter your name">
+                        <input type="email" class="demo-input" placeholder="Enter your email">
+                        <textarea class="demo-input" placeholder="Enter your message" rows="3"></textarea>
+                    </div>
+                    
+                    <div class="demo-card">
+                        <h3>Cards</h3>
+                        <div class="service-card hover-lift">
+                            <div class="service-icon">🚀</div>
+                            <h3>Performance</h3>
+                            <p>Optimized for speed and efficiency</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="demo-section" id="animations">
+            <div class="container">
+                <h2>✨ Animation Effects</h2>
+                <p>Explore the various animation utilities and effects.</p>
+                
+                <div class="demo-grid">
+                    <div class="demo-card">
+                        <h3>Hover Effects</h3>
+                        <div class="demo-card hover-lift" style="text-align: center; padding: 2rem;">
+                            <p>Hover over this card to see the lift effect</p>
+                        </div>
+                    </div>
+                    
+                    <div class="demo-card">
+                        <h3>Glow Effects</h3>
+                        <div class="demo-card hover-glow" style="text-align: center; padding: 2rem;">
+                            <p>Hover over this card to see the glow effect</p>
+                        </div>
+                    </div>
+                    
+                    <div class="demo-card">
+                        <h3>CSS Animations</h3>
+                        <div class="animation-demo"></div>
+                        <p style="text-align: center;">Bouncing animation</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="demo-section" id="tracer">
+            <div class="container">
+                <h2>🖱️ Mouse Tracer Demo</h2>
+                <p>Move your mouse around to see the interactive tracer effect. Hover over elements to see special effects.</p>
+                
+                <div class="interactive-demo">
+                    <div style="text-align: center;">
+                        <h3>Interactive Area</h3>
+                        <p>Move your mouse here to see the tracer in action!</p>
+                        <button class="demo-button">Hover me!</button>
+                        <input type="text" class="demo-input" placeholder="Try hovering here too">
+                    </div>
+                </div>
+                
+                <div class="demo-grid">
+                    <div class="demo-card hover-lift">
+                        <h3>Hover Effects</h3>
+                        <p>The mouse tracer will scale and change color when you hover over interactive elements like this card.</p>
+                    </div>
+                    
+                    <div class="demo-card hover-glow">
+                        <h3>Glow Effects</h3>
+                        <p>Some elements have glow effects that work with the mouse tracer for enhanced visual feedback.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="demo-section">
+            <div class="container">
+                <h2>🌙 Theme Toggle</h2>
+                <p>Click the theme toggle button in the top-right corner to switch between light and dark modes.</p>
+                
+                <div class="demo-card">
+                    <h3>Theme Features</h3>
+                    <ul>
+                        <li>Automatic dark mode detection</li>
+                        <li>Persistent theme preference</li>
+                        <li>Smooth transitions between themes</li>
+                        <li>Accessibility considerations</li>
+                        <li>Performance optimized</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-flex">
+            <div class="footer-left">
+                <p>&copy; 2025 Deepthink Technologies. All rights reserved.</p>
+            </div>
+            <div class="footer-center">
+                <p>Theme System Demo</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Theme and Mouse Tracer Scripts -->
+    <script src="public/mouse-tracer.js"></script>
+</body>
+</html> 

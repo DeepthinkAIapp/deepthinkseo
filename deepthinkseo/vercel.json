@@ -5,8 +5,59 @@
   "framework": "vite",
   "rewrites": [
     {
+      "source": "/content-marketing-seo-success-2025",
+      "destination": "/public/blog/content-marketing-seo-success-2025.html"
+    },
+    {
+      "source": "/technical-seo-checklist-2025",
+      "destination": "/public/blog/technical-seo-checklist-2025.html"
+    },
+    {
+      "source": "/complete-seo-strategy-guide-2025",
+      "destination": "/public/blog/complete-seo-strategy-guide-2025.html"
+    },
+    {
+      "source": "/local-seo-strategies-small-businesses-2025",
+      "destination": "/public/blog/local-seo-strategies-small-businesses-2025.html"
+    },
+    {
+      "source": "/ai-powered-seo-strategies-2025",
+      "destination": "/public/blog/ai-powered-seo-strategies-2025.html"
+    },
+    {
+      "source": "/blog",
+      "destination": "/public/blog/index.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/public/contact.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
     }
   ]
 } 
