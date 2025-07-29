@@ -71,7 +71,7 @@
                     <li><a href="/blog">Blog</a></li>
                 </ul>
             </nav>
-            <a href="/contact" class="cta-header">Get Proposal</a>
+            <a href="#contact" class="cta-header">Get Proposal</a>
         </div>
     </header>
 
@@ -94,7 +94,7 @@
                     <script>
                       document.getElementById('hero-seo-form').addEventListener('submit', function(e) {
                         e.preventDefault();
-                        window.location.href = '/contact';
+                        document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
                       });
                     </script>
                 </div>
@@ -374,7 +374,7 @@
                     <script>
                       document.querySelector('.award-form').addEventListener('submit', function(e) {
                         e.preventDefault();
-                        window.location.href = '/contact';
+                        document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
                       });
                     </script>
                 </div>
