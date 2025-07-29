@@ -32,6 +32,7 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
 }
 
 .logo {
@@ -42,6 +43,7 @@ header .container {
   letter-spacing: 1px;
   color: var(--text-primary);
   gap: 10px;
+  flex-shrink: 0;
 }
 .logo-mark {
   font-size: 2.1rem;
@@ -64,15 +66,22 @@ header .container {
   display: block;
 }
 
+nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
+    gap: 28px;
 }
 
 nav ul li {
-    margin-left: 28px;
+    margin: 0;
 }
 
 nav ul li a {
@@ -81,10 +90,18 @@ nav ul li a {
     font-weight: 600;
     font-size: 1.05rem;
     transition: color 0.2s;
+    white-space: nowrap;
 }
 
 nav ul li a:hover {
     color: var(--primary);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-shrink: 0;
 }
 
 .cta-header {
@@ -94,8 +111,8 @@ nav ul li a:hover {
     border-radius: 8px;
     font-weight: 700;
     text-decoration: none;
-    margin-left: 32px;
     transition: background 0.2s;
+    white-space: nowrap;
 }
 
 .cta-header:hover {
@@ -1141,4 +1158,84 @@ footer {
     .faq-content h3 {
         text-align: center;
     }
+}
+
+/* ===== RESPONSIVE HEADER ===== */
+@media (max-width: 768px) {
+  header .container {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+  }
+  
+  .logo-img {
+    height: 50px;
+  }
+  
+  nav {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+  
+  nav ul {
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  nav ul li a {
+    font-size: 0.9rem;
+  }
+  
+  .header-actions {
+    gap: 0.5rem;
+  }
+  
+  .theme-toggle {
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+    margin: 0 0.5rem;
+  }
+  
+  .cta-header {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 1.3rem;
+  }
+  
+  .logo-img {
+    height: 40px;
+  }
+  
+  nav ul {
+    gap: 12px;
+  }
+  
+  nav ul li a {
+    font-size: 0.8rem;
+  }
+  
+  .theme-toggle {
+    width: 32px;
+    height: 32px;
+    font-size: 12px;
+    margin: 0 0.25rem;
+  }
+  
+  .cta-header {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
 }
