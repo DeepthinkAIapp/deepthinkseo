@@ -1,41 +1,43 @@
 {
   "framework": null,
+  "buildCommand": null,
+  "outputDirectory": "public",
   "rewrites": [
     {
       "source": "/sitemap.xml",
-      "destination": "/public/sitemap.xml"
+      "destination": "/sitemap.xml"
     },
     {
       "source": "/robots.txt",
-      "destination": "/public/robots.txt"
+      "destination": "/robots.txt"
     },
     {
       "source": "/content-marketing-seo-success-2025",
-      "destination": "/public/blog/content-marketing-seo-success-2025.html"
+      "destination": "/blog/content-marketing-seo-success-2025.html"
     },
     {
       "source": "/technical-seo-checklist-2025",
-      "destination": "/public/blog/technical-seo-checklist-2025.html"
+      "destination": "/blog/technical-seo-checklist-2025.html"
     },
     {
       "source": "/complete-seo-strategy-guide-2025",
-      "destination": "/public/blog/complete-seo-strategy-guide-2025.html"
+      "destination": "/blog/complete-seo-strategy-guide-2025.html"
     },
     {
       "source": "/local-seo-strategies-small-businesses-2025",
-      "destination": "/public/blog/local-seo-strategies-small-businesses-2025.html"
+      "destination": "/blog/local-seo-strategies-small-businesses-2025.html"
     },
     {
       "source": "/ai-powered-seo-strategies-2025",
-      "destination": "/public/blog/ai-powered-seo-strategies-2025.html"
+      "destination": "/blog/ai-powered-seo-strategies-2025.html"
     },
     {
       "source": "/blog",
-      "destination": "/public/blog/index.html"
+      "destination": "/blog/index.html"
     },
     {
       "source": "/contact",
-      "destination": "/public/contact.html"
+      "destination": "/contact.html"
     },
     {
       "source": "/",
