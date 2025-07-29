@@ -94,14 +94,26 @@
                     <p class="hero-sub">
                         With a track record of excellence and a team of seasoned experts, Deepthink is your go-to source for optimizing your online presence. From keyword research to content optimization and backlink strategies, trust Deepthink SEO to propel your website to the top of search engine rankings.
                     </p>
-                    <form class="hero-form" id="hero-seo-form" autocomplete="on">
-                        <input type="text" name="website" id="hero-website-input" placeholder="Enter your website">
+                    <form class="hero-form" id="hero-seo-form" action="https://formspree.io/f/xdkdnrgp" method="POST" autocomplete="on">
+                        <input type="text" name="website" id="hero-website-input" placeholder="Enter your website" required>
+                        <input type="hidden" name="subject" value="SEO Proposal Request from Hero Section">
+                        <input type="hidden" name="message" value="New SEO proposal request from website hero section">
                         <button type="submit" class="cta-button">Get SEO Proposal &rarr;</button>
                     </form>
                     <script>
                       document.getElementById('hero-seo-form').addEventListener('submit', function(e) {
-                        e.preventDefault();
-                        document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+                        // Show loading state
+                        const button = this.querySelector('button');
+                        const originalText = button.innerHTML;
+                        button.innerHTML = 'Sending...';
+                        button.disabled = true;
+                        
+                        // Form will submit to Formspree automatically
+                        // You can add success handling here if needed
+                        setTimeout(() => {
+                          button.innerHTML = originalText;
+                          button.disabled = false;
+                        }, 3000);
                       });
                     </script>
                 </div>
@@ -126,29 +138,197 @@
     </main>
 
         <!-- SERVICES SECTION -->
-        <section class="services" id="services">
+        <section class="services" id="services" style="background: #1a1a1a; padding: 80px 0; color: white;">
             <div class="container">
-                <h2>Our SEO Services</h2>
-                <div class="service-grid">
-                    <div class="service-card">
-                        <div class="service-icon">🔍</div>
-                        <h3>SEO Audits & Strategy</h3>
-                        <p>In-depth site audits and custom strategies to maximize your search visibility and ROI.</p>
+                <div style="text-align: center; margin-bottom: 60px;">
+                    <h2 style="font-size: 3.5rem; font-weight: 800; margin: 0 0 20px 0; color: white;">Choose Your SEO Package</h2>
+                    <p style="font-size: 1.25rem; color: #ccc; max-width: 600px; margin: 0 auto;">Our plans are clear and open, no shocks or caps. Help is always here when you want it.</p>
+                </div>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; max-width: 1200px; margin: 0 auto;">
+                    <!-- Startup Package -->
+                    <div style="background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 20px 40px rgba(0,0,0,0.1); transition: transform 0.3s ease;">
+                        <div style="padding: 2rem; text-align: center;">
+                            <h3 style="font-size: 2rem; font-weight: 700; margin: 0 0 10px 0; color: #1a1a1a;">Startup</h3>
+                            <p style="color: #666; margin: 0 0 20px 0; font-size: 1rem;">Launch with impact: Essential SEO solution</p>
+                            <div style="font-size: 3.5rem; font-weight: 800; color: #1a1a1a; margin: 20px 0;">
+                                $ 445
+                            </div>
+                        </div>
+                        <div style="background: #90EE90; padding: 2rem; color: #1a1a1a;">
+                            <ul style="list-style: none; padding: 0; margin: 0;">
+                                <li style="margin-bottom: 15px; display: flex; align-items: center;">
+                                    <span style="color: #22c55e; margin-right: 10px; font-weight: bold;">✔</span>
+                                    5 Keywords
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: center;">
+                                    <span style="color: #22c55e; margin-right: 10px; font-weight: bold;">✔</span>
+                                    Guaranteed Ranking on Google
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: center;">
+                                    <span style="color: #22c55e; margin-right: 10px; font-weight: bold;">✔</span>
+                                    Off-site Optimization
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: center;">
+                                    <span style="color: #22c55e; margin-right: 10px; font-weight: bold;">✔</span>
+                                    Link Building
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: center;">
+                                    <span style="color: #22c55e; margin-right: 10px; font-weight: bold;">✔</span>
+                                    Social Bookmarking
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: center;">
+                                    <span style="color: #22c55e; margin-right: 10px; font-weight: bold;">✔</span>
+                                    Basic Analytical Report
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: center;">
+                                    <span style="color: #22c55e; margin-right: 10px; font-weight: bold;">✔</span>
+                                    In-depth Site Analysis
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: center;">
+                                    <span style="color: #22c55e; margin-right: 10px; font-weight: bold;">✔</span>
+                                    Content Duplicity Check
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: center;">
+                                    <span style="color: #22c55e; margin-right: 10px; font-weight: bold;">✔</span>
+                                    Initial Backlinks Analysis
+                                </li>
+                            </ul>
+                        </div>
+                        <div style="padding: 2rem; text-align: center;">
+                            <form action="https://formspree.io/f/xdkdnrgp" method="POST" style="display: inline;">
+                                <input type="hidden" name="subject" value="SEO Proposal Request - Startup Package">
+                                <input type="hidden" name="message" value="New SEO proposal request for Startup Package ($445)">
+                                <input type="hidden" name="package" value="Startup Package - $445">
+                                <button type="submit" style="background: #1a1a1a; color: white; padding: 1rem 2rem; border-radius: 10px; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 10px; transition: background-color 0.3s ease; border: none; cursor: pointer;">
+                                    Start Project
+                                    <span style="color: #22c55e;">→</span>
+                                </button>
+                            </form>
+                        </div>
                     </div>
-                    <div class="service-card">
-                        <div class="service-icon">📍</div>
-                        <h3>Local SEO</h3>
-                        <p>Get found by customers in your area with Google Business Profile optimization and local link building.</p>
+
+                    <!-- Identity Package -->
+                    <div style="background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 20px 40px rgba(0,0,0,0.1); transition: transform 0.3s ease;">
+                        <div style="padding: 2rem; text-align: center;">
+                            <h3 style="font-size: 2rem; font-weight: 700; margin: 0 0 10px 0; color: #1a1a1a;">Identity</h3>
+                            <p style="color: #666; margin: 0 0 20px 0; font-size: 1rem;">Growth-focused SEO solutions for expanding businesses</p>
+                            <div style="font-size: 3.5rem; font-weight: 800; color: #1a1a1a; margin: 20px 0;">
+                                $ 845
+                            </div>
+                        </div>
+                        <div style="background: #20B2AA; padding: 2rem; color: white;">
+                            <ul style="list-style: none; padding: 0; margin: 0;">
+                                <li style="margin-bottom: 15px; display: flex; align-items: center;">
+                                    <span style="color: #90EE90; margin-right: 10px; font-weight: bold;">✔</span>
+                                    10 Keywords
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: center;">
+                                    <span style="color: #90EE90; margin-right: 10px; font-weight: bold;">✔</span>
+                                    Guaranteed Ranking on Google
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: center;">
+                                    <span style="color: #90EE90; margin-right: 10px; font-weight: bold;">✔</span>
+                                    Off-site Optimization
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: center;">
+                                    <span style="color: #90EE90; margin-right: 10px; font-weight: bold;">✔</span>
+                                    On-site Optimization
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: center;">
+                                    <span style="color: #90EE90; margin-right: 10px; font-weight: bold;">✔</span>
+                                    Link Building
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: center;">
+                                    <span style="color: #90EE90; margin-right: 10px; font-weight: bold;">✔</span>
+                                    Social Bookmarking
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: center;">
+                                    <span style="color: #90EE90; margin-right: 10px; font-weight: bold;">✔</span>
+                                    In-depth Site Analysis
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: center;">
+                                    <span style="color: #90EE90; margin-right: 10px; font-weight: bold;">✔</span>
+                                    Content Duplicacy Check
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: center;">
+                                    <span style="color: #90EE90; margin-right: 10px; font-weight: bold;">✔</span>
+                                    Initial Backlinks Analysis
+                                </li>
+                            </ul>
+                        </div>
+                        <div style="padding: 2rem; text-align: center;">
+                            <form action="https://formspree.io/f/xdkdnrgp" method="POST" style="display: inline;">
+                                <input type="hidden" name="subject" value="SEO Proposal Request - Identity Package">
+                                <input type="hidden" name="message" value="New SEO proposal request for Identity Package ($845)">
+                                <input type="hidden" name="package" value="Identity Package - $845">
+                                <button type="submit" style="background: #1a1a1a; color: white; padding: 1rem 2rem; border-radius: 10px; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 10px; transition: background-color 0.3s ease; border: none; cursor: pointer;">
+                                    Start Project
+                                    <span style="color: #22c55e;">→</span>
+                                </button>
+                            </form>
+                        </div>
                     </div>
-                    <div class="service-card">
-                        <div class="service-icon">✍️</div>
-                        <h3>Content Marketing</h3>
-                        <p>Engage and convert with high-quality, SEO-optimized content tailored to your audience.</p>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon">⚙️</div>
-                        <h3>Technical SEO</h3>
-                        <p>Improve site speed, mobile usability, and crawlability for better rankings and user experience.</p>
+
+                    <!-- Elite Package -->
+                    <div style="background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 20px 40px rgba(0,0,0,0.1); transition: transform 0.3s ease;">
+                        <div style="padding: 2rem; text-align: center;">
+                            <h3 style="font-size: 2rem; font-weight: 700; margin: 0 0 10px 0; color: #1a1a1a;">Elite</h3>
+                            <p style="color: #666; margin: 0 0 20px 0; font-size: 1rem;">Comprehensive SEO solution for maximum impact</p>
+                            <div style="font-size: 3.5rem; font-weight: 800; color: #1a1a1a; margin: 20px 0;">
+                                $ 1545
+                            </div>
+                        </div>
+                        <div style="background: #008B8B; padding: 2rem; color: white;">
+                            <ul style="list-style: none; padding: 0; margin: 0;">
+                                <li style="margin-bottom: 15px; display: flex; align-items: center;">
+                                    <span style="color: #90EE90; margin-right: 10px; font-weight: bold;">✔</span>
+                                    30 Keywords
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: center;">
+                                    <span style="color: #90EE90; margin-right: 10px; font-weight: bold;">✔</span>
+                                    Guaranteed Ranking on Google
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: center;">
+                                    <span style="color: #90EE90; margin-right: 10px; font-weight: bold;">✔</span>
+                                    Off-site Optimization
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: center;">
+                                    <span style="color: #90EE90; margin-right: 10px; font-weight: bold;">✔</span>
+                                    On-site Optimization
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: center;">
+                                    <span style="color: #90EE90; margin-right: 10px; font-weight: bold;">✔</span>
+                                    Link Building
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: center;">
+                                    <span style="color: #90EE90; margin-right: 10px; font-weight: bold;">✔</span>
+                                    Social Bookmarking
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: center;">
+                                    <span style="color: #90EE90; margin-right: 10px; font-weight: bold;">✔</span>
+                                    In-depth Site Analysis
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: center;">
+                                    <span style="color: #90EE90; margin-right: 10px; font-weight: bold;">✔</span>
+                                    Content Duplicacy Check
+                                </li>
+                                <li style="margin-bottom: 15px; display: flex; align-items: center;">
+                                    <span style="color: #90EE90; margin-right: 10px; font-weight: bold;">✔</span>
+                                    Initial Backlinks Analysis
+                                </li>
+                            </ul>
+                        </div>
+                        <div style="padding: 2rem; text-align: center;">
+                            <form action="https://formspree.io/f/xdkdnrgp" method="POST" style="display: inline;">
+                                <input type="hidden" name="subject" value="SEO Proposal Request - Elite Package">
+                                <input type="hidden" name="message" value="New SEO proposal request for Elite Package ($1545)">
+                                <input type="hidden" name="package" value="Elite Package - $1545">
+                                <button type="submit" style="background: #1a1a1a; color: white; padding: 1rem 2rem; border-radius: 10px; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 10px; transition: background-color 0.3s ease; border: none; cursor: pointer;">
+                                    Start Project
+                                    <span style="color: #22c55e;">→</span>
+                                </button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
