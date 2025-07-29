@@ -47,32 +47,6 @@
   color: var(--bg-primary);
 }
 
-/* ===== DARK MODE VARIABLES ===== */
-[data-theme="dark"] {
-  /* Background Colors - Dark Mode */
-  --bg-primary: #1a1a1a;
-  --bg-secondary: #2d2d2d;
-  --bg-tertiary: #3a3a3a;
-  --bg-accent: #4a4a4a;
-  --bg-light: #2a2a2a;
-  --bg-process: #3d3d3d;
-  
-  /* Text Colors - Dark Mode */
-  --text-primary: #ffffff;
-  --text-secondary: #e0e0e0;
-  --text-muted: #b0b0b0;
-  --text-light: #888888;
-  
-  /* Border Colors - Dark Mode */
-  --border-light: #404040;
-  --border-footer: #333333;
-  
-  /* Shadow Colors - Dark Mode */
-  --shadow-light: rgba(0, 0, 0, 0.3);
-  --shadow-medium: rgba(124, 58, 237, 0.3);
-  --shadow-heavy: rgba(124, 58, 237, 0.4);
-}
-
 /* ===== THEME SYSTEM ===== */
 :root {
   /* Primary Colors - EXACT from original design */
@@ -114,6 +88,32 @@
   --warning: #eab308;
   --error: #f97316;
   --info: #3b82f6;
+}
+
+/* ===== DARK MODE VARIABLES ===== */
+[data-theme="dark"] {
+  /* Background Colors - Dark Mode */
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #2d2d2d;
+  --bg-tertiary: #3a3a3a;
+  --bg-accent: #4a4a4a;
+  --bg-light: #2a2a2a;
+  --bg-process: #3d3d3d;
+  
+  /* Text Colors - Dark Mode */
+  --text-primary: #ffffff;
+  --text-secondary: #e0e0e0;
+  --text-muted: #b0b0b0;
+  --text-light: #888888;
+  
+  /* Border Colors - Dark Mode */
+  --border-light: #404040;
+  --border-footer: #333333;
+  
+  /* Shadow Colors - Dark Mode */
+  --shadow-light: rgba(0, 0, 0, 0.3);
+  --shadow-medium: rgba(124, 58, 237, 0.3);
+  --shadow-heavy: rgba(124, 58, 237, 0.4);
 }
 
 /* ===== MOUSE TRACER ===== */

@@ -188,8 +188,11 @@ class ThemeManager {
 
   setupThemeToggle() {
     const toggle = document.getElementById('theme-toggle');
+    console.log('Looking for theme toggle button:', toggle);
     if (toggle) {
+      console.log('Theme toggle button found, adding event listeners');
       toggle.addEventListener('click', () => {
+        console.log('Theme toggle clicked!');
         this.toggleTheme();
       });
 
@@ -201,22 +204,30 @@ class ThemeManager {
       toggle.addEventListener('mouseleave', () => {
         toggle.style.transform = 'scale(1)';
       });
+    } else {
+      console.log('Theme toggle button not found!');
     }
   }
 
   toggleTheme() {
+    console.log('Theme toggle clicked! Current theme:', this.currentTheme);
     this.currentTheme = this.currentTheme === 'light' ? 'dark' : 'light';
+    console.log('New theme:', this.currentTheme);
     this.saveTheme();
     this.applyTheme();
   }
 
   applyTheme() {
+    console.log('Applying theme:', this.currentTheme);
     document.documentElement.setAttribute('data-theme', this.currentTheme);
     
     const toggle = document.getElementById('theme-toggle');
     const icon = toggle ? toggle.querySelector('.theme-icon') : null;
     if (icon) {
       icon.textContent = this.currentTheme === 'light' ? '🌙' : '☀️';
+      console.log('Icon updated to:', icon.textContent);
+    } else {
+      console.log('Theme toggle or icon not found!');
     }
   }
 
