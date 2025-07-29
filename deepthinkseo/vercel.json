@@ -2,6 +2,14 @@
   "framework": null,
   "rewrites": [
     {
+      "source": "/sitemap.xml",
+      "destination": "/public/sitemap.xml"
+    },
+    {
+      "source": "/robots.txt",
+      "destination": "/public/robots.txt"
+    },
+    {
       "source": "/content-marketing-seo-success-2025",
       "destination": "/public/blog/content-marketing-seo-success-2025.html"
     },
@@ -30,19 +38,7 @@
       "destination": "/public/contact.html"
     },
     {
-      "source": "/sitemap.xml",
-      "destination": "/public/sitemap.xml"
-    },
-    {
-      "source": "/robots.txt",
-      "destination": "/public/robots.txt"
-    },
-    {
       "source": "/",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/(.*)",
       "destination": "/index.html"
     }
   ],
