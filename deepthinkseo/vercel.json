@@ -30,6 +30,14 @@
       "destination": "/public/contact.html"
     },
     {
+      "source": "/sitemap.xml",
+      "destination": "/public/sitemap.xml"
+    },
+    {
+      "source": "/robots.txt",
+      "destination": "/public/robots.txt"
+    },
+    {
       "source": "/",
       "destination": "/index.html"
     },
