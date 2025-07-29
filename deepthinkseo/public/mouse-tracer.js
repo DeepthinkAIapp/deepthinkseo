@@ -308,17 +308,20 @@ if (document.readyState === 'loading') {
 function initializeThemeSystem() {
   console.log('Theme system initializing...');
   
-  // Initialize mouse tracer
-  const mouseTracer = new MouseTracer();
-  console.log('Mouse tracer initialized');
-  
-  // Initialize theme manager
-  const themeManager = new ThemeManager();
-  console.log('Theme manager initialized');
-  
-  // Add some fun interactive effects
-  addParallaxEffects();
-  addScrollAnimations();
-  
-  console.log('Theme system ready!');
+  // Add a small delay to ensure DOM is fully loaded
+  setTimeout(() => {
+    // Initialize mouse tracer
+    const mouseTracer = new MouseTracer();
+    console.log('Mouse tracer initialized');
+    
+    // Initialize theme manager
+    const themeManager = new ThemeManager();
+    console.log('Theme manager initialized');
+    
+    // Add some fun interactive effects
+    addParallaxEffects();
+    addScrollAnimations();
+    
+    console.log('Theme system ready!');
+  }, 100);
 } 
