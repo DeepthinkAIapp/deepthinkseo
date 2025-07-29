@@ -1,3 +1,78 @@
+/* ===== THEME TOGGLE BUTTON ===== */
+.theme-toggle {
+  background: transparent;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  margin: 0 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.theme-toggle:hover {
+  background: var(--primary);
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0 4px 16px var(--shadow-medium);
+}
+
+.theme-toggle:active {
+  transform: scale(0.95);
+}
+
+.theme-toggle .theme-icon {
+  transition: transform 0.3s ease;
+}
+
+.theme-toggle:hover .theme-icon {
+  transform: rotate(180deg);
+}
+
+/* Dark mode styles for theme toggle */
+[data-theme="dark"] .theme-toggle {
+  border-color: var(--primary-accent);
+  color: var(--primary-accent);
+}
+
+[data-theme="dark"] .theme-toggle:hover {
+  background: var(--primary-accent);
+  color: var(--bg-primary);
+}
+
+/* ===== DARK MODE VARIABLES ===== */
+[data-theme="dark"] {
+  /* Background Colors - Dark Mode */
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #2d2d2d;
+  --bg-tertiary: #3a3a3a;
+  --bg-accent: #4a4a4a;
+  --bg-light: #2a2a2a;
+  --bg-process: #3d3d3d;
+  
+  /* Text Colors - Dark Mode */
+  --text-primary: #ffffff;
+  --text-secondary: #e0e0e0;
+  --text-muted: #b0b0b0;
+  --text-light: #888888;
+  
+  /* Border Colors - Dark Mode */
+  --border-light: #404040;
+  --border-footer: #333333;
+  
+  /* Shadow Colors - Dark Mode */
+  --shadow-light: rgba(0, 0, 0, 0.3);
+  --shadow-medium: rgba(124, 58, 237, 0.3);
+  --shadow-heavy: rgba(124, 58, 237, 0.4);
+}
+
 /* ===== THEME SYSTEM ===== */
 :root {
   /* Primary Colors - EXACT from original design */

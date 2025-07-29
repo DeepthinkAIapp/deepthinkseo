@@ -181,46 +181,27 @@ class ThemeManager {
   }
 
   init() {
-    this.createThemeToggle();
+    this.setupThemeToggle();
     this.loadSavedTheme();
     this.applyTheme();
   }
 
-  createThemeToggle() {
-    const toggle = document.createElement('button');
-    toggle.className = 'theme-toggle';
-    toggle.innerHTML = '🌙';
-    toggle.title = 'Toggle theme';
-    toggle.style.cssText = `
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      z-index: 10000;
-      background: var(--primary);
-      color: white;
-      border: none;
-      border-radius: 50%;
-      width: 50px;
-      height: 50px;
-      cursor: pointer;
-      font-size: 20px;
-      box-shadow: 0 4px 16px var(--shadow-medium);
-      transition: all 0.3s ease;
-    `;
+  setupThemeToggle() {
+    const toggle = document.getElementById('theme-toggle');
+    if (toggle) {
+      toggle.addEventListener('click', () => {
+        this.toggleTheme();
+      });
 
-    toggle.addEventListener('click', () => {
-      this.toggleTheme();
-    });
+      // Add hover effects
+      toggle.addEventListener('mouseenter', () => {
+        toggle.style.transform = 'scale(1.1)';
+      });
 
-    toggle.addEventListener('mouseenter', () => {
-      toggle.style.transform = 'scale(1.1)';
-    });
-
-    toggle.addEventListener('mouseleave', () => {
-      toggle.style.transform = 'scale(1)';
-    });
-
-    document.body.appendChild(toggle);
+      toggle.addEventListener('mouseleave', () => {
+        toggle.style.transform = 'scale(1)';
+      });
+    }
   }
 
   toggleTheme() {
@@ -232,9 +213,10 @@ class ThemeManager {
   applyTheme() {
     document.documentElement.setAttribute('data-theme', this.currentTheme);
     
-    const toggle = document.querySelector('.theme-toggle');
-    if (toggle) {
-      toggle.innerHTML = this.currentTheme === 'light' ? '🌙' : '☀️';
+    const toggle = document.getElementById('theme-toggle');
+    const icon = toggle ? toggle.querySelector('.theme-icon') : null;
+    if (icon) {
+      icon.textContent = this.currentTheme === 'light' ? '🌙' : '☀️';
     }
   }
 
