@@ -16,11 +16,11 @@ export const metadata: Metadata = {
     type: 'website',
     title: 'Deepthink Technologies | Utah SEO Experts',
     description: 'Utah\'s top SEO agency for organic growth, local SEO, and technical optimization. Get your free SEO proposal today!',
-    url: 'https://deepthinkseo.online/',
+    url: 'https://deepthinkseo.vercel.app/',
     siteName: 'Deepthink Technologies',
     images: [
       {
-        url: 'https://deepthinkseo.online/images/logo/logo.png',
+        url: 'https://deepthinkseo.vercel.app/images/logo/logo.png',
         width: 1200,
         height: 630,
         alt: 'Deepthink Technologies Logo',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Deepthink Technologies | Utah SEO Experts',
     description: 'Utah\'s top SEO agency for organic growth, local SEO, and technical optimization. Get your free SEO proposal today!',
-    images: ['https://deepthinkseo.online/images/logo/logo.png'],
+    images: ['https://deepthinkseo.vercel.app/images/logo/logo.png'],
   },
   icons: {
     icon: [
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   },
   manifest: '/site.webmanifest',
   alternates: {
-    canonical: 'https://deepthinkseo.online/',
+    canonical: 'https://deepthinkseo.vercel.app/',
   },
 }
 
@@ -81,8 +81,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "Deepthink Technologies",
-              "url": "https://deepthinkseo.online/",
-              "logo": "https://deepthinkseo.online/images/logo/logo.png",
+              "url": "https://deepthinkseo.vercel.app/",
+              "logo": "https://deepthinkseo.vercel.app/images/logo/logo.png",
               "contactPoint": [{
                 "@type": "ContactPoint",
                 "telephone": "+1-385-216-2993",
