@@ -473,6 +473,573 @@ const blogPosts = [
     publishedDate: "January 16, 2025",
     readingTime: "11 minutes",
     category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Homepages",
+    description: "Master SEO for e-commerce homepages with our comprehensive guide. Learn how to optimize your homepage, improve user experience, and boost conversions in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-homepages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce About Pages",
+    description: "Master SEO for e-commerce about pages with our comprehensive guide. Learn how to optimize your about page, build trust with customers, and boost brand credibility in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-about-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Contact Pages",
+    description: "Master SEO for e-commerce contact pages with our comprehensive guide. Learn how to optimize your contact page, improve customer service, and boost customer satisfaction in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-contact-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "11 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce FAQ Pages",
+    description: "Master SEO for e-commerce FAQ pages with our comprehensive guide. Learn how to optimize your FAQ page, improve customer support, and boost user satisfaction in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-faq-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Shipping Pages",
+    description: "Master SEO for e-commerce shipping pages with our comprehensive guide. Learn how to optimize your shipping page, improve customer experience, and boost conversion rates in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-shipping-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "11 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Return Pages",
+    description: "Master SEO for e-commerce return pages with our comprehensive guide. Learn how to optimize your return page, improve customer satisfaction, and boost brand trust in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-return-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Privacy Policy Pages",
+    description: "Master SEO for e-commerce privacy policy pages with our comprehensive guide. Learn how to optimize your privacy policy page, build customer trust, and ensure compliance in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-privacy-policy-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Terms of Service Pages",
+    description: "Master SEO for e-commerce terms of service pages with our comprehensive guide. Learn how to optimize your terms of service page, build customer trust, and ensure legal compliance in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-terms-of-service-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Sitemap Pages",
+    description: "Master SEO for e-commerce sitemap pages with our comprehensive guide. Learn how to optimize your sitemap page, improve site navigation, and boost search engine visibility in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-sitemap-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Blog Pages",
+    description: "Master SEO for e-commerce blog pages with our comprehensive guide. Learn how to optimize your blog page, improve content marketing, and boost brand authority in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-blog-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Search Results Pages",
+    description: "Master SEO for e-commerce search results pages with our comprehensive guide. Learn how to optimize your search results page, improve product discovery, and boost conversion rates in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-search-results-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce 404 Error Pages",
+    description: "Master SEO for e-commerce 404 error pages with our comprehensive guide. Learn how to optimize your 404 page, improve user experience, and reduce bounce rates in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-404-error-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Thank You Pages",
+    description: "Master SEO for e-commerce thank you pages with our comprehensive guide. Learn how to optimize your thank you page, improve customer experience, and boost customer retention in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-thank-you-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Login Pages",
+    description: "Master SEO for e-commerce login pages with our comprehensive guide. Learn how to optimize your login page, improve user experience, and boost customer engagement in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-login-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Registration Pages",
+    description: "Master SEO for e-commerce registration pages with our comprehensive guide. Learn how to optimize your registration page, improve user experience, and boost customer acquisition in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-registration-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Wishlist Pages",
+    description: "Master SEO for e-commerce wishlist pages with our comprehensive guide. Learn how to optimize your wishlist page, improve user engagement, and boost conversion rates in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-wishlist-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Compare Pages",
+    description: "Master SEO for e-commerce compare pages with our comprehensive guide. Learn how to optimize your compare page, improve product discovery, and boost conversion rates in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-compare-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Cart Pages",
+    description: "Master SEO for e-commerce cart pages with our comprehensive guide. Learn how to optimize your cart page, reduce cart abandonment, and boost conversion rates in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-cart-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Account Dashboard Pages",
+    description: "Master SEO for e-commerce account dashboard pages with our comprehensive guide. Learn how to optimize your dashboard page, improve user experience, and boost customer retention in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-account-dashboard-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Order History Pages",
+    description: "Master SEO for e-commerce order history pages with our comprehensive guide. Learn how to optimize your order history page, improve customer experience, and boost customer retention in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-order-history-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Profile Pages",
+    description: "Master SEO for e-commerce profile pages with our comprehensive guide. Learn how to optimize your profile page, improve user experience, and boost customer engagement in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-profile-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Settings Pages",
+    description: "Master SEO for e-commerce settings pages with our comprehensive guide. Learn how to optimize your settings page, improve user experience, and boost customer satisfaction in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-settings-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Notifications Pages",
+    description: "Master SEO for e-commerce notifications pages with our comprehensive guide. Learn how to optimize your notifications page, improve user engagement, and boost customer retention in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-notifications-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Help Center Pages",
+    description: "Master SEO for e-commerce help center pages with our comprehensive guide. Learn how to optimize your help center page, improve customer support, and boost customer satisfaction in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-help-center-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Payment Pages",
+    description: "Master SEO for e-commerce payment pages with our comprehensive guide. Learn how to optimize your payment page, improve conversion rates, and boost customer trust in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-payment-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Confirmation Pages",
+    description: "Master SEO for e-commerce confirmation pages with our comprehensive guide. Learn how to optimize your confirmation page, improve customer experience, and boost customer retention in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-confirmation-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Invoice Pages",
+    description: "Master SEO for e-commerce invoice pages with our comprehensive guide. Learn how to optimize your invoice page, improve customer experience, and boost customer satisfaction in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-invoice-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Refund Pages",
+    description: "Master SEO for e-commerce refund pages with our comprehensive guide. Learn how to optimize your refund page, improve customer experience, and boost customer satisfaction in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-refund-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Exchange Pages",
+    description: "Master SEO for e-commerce exchange pages with our comprehensive guide. Learn how to optimize your exchange page, improve customer experience, and boost customer satisfaction in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-exchange-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Warranty Pages",
+    description: "Master SEO for e-commerce warranty pages with our comprehensive guide. Learn how to optimize your warranty page, improve customer confidence, and boost customer satisfaction in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-warranty-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Gift Card Pages",
+    description: "Master SEO for e-commerce gift card pages with our comprehensive guide. Learn how to optimize your gift card page, improve customer experience, and boost gift card sales in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-gift-card-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Loyalty Program Pages",
+    description: "Master SEO for e-commerce loyalty program pages with our comprehensive guide. Learn how to optimize your loyalty program page, improve customer retention, and boost customer engagement in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-loyalty-program-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Rewards Pages",
+    description: "Master SEO for e-commerce rewards pages with our comprehensive guide. Learn how to optimize your rewards page, improve customer engagement, and boost customer satisfaction in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-rewards-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Newsletter Pages",
+    description: "Master SEO for e-commerce newsletter pages with our comprehensive guide. Learn how to optimize your newsletter page, improve customer engagement, and boost email marketing success in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-newsletter-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Social Media Pages",
+    description: "Master SEO for e-commerce social media pages with our comprehensive guide. Learn how to optimize your social media page, improve brand visibility, and boost social media engagement in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-social-media-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Affiliate Program Pages",
+    description: "Master SEO for e-commerce affiliate program pages with our comprehensive guide. Learn how to optimize your affiliate program page, improve partner acquisition, and boost affiliate marketing success in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-affiliate-program-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Mobile App Pages",
+    description: "Master SEO for e-commerce mobile app pages with our comprehensive guide. Learn how to optimize your mobile app page, improve app downloads, and boost mobile user engagement in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-mobile-app-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce API Documentation Pages",
+    description: "Master SEO for e-commerce API documentation pages with our comprehensive guide. Learn how to optimize your API documentation page, improve developer experience, and boost API adoption in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-api-documentation-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Webhook Pages",
+    description: "Master SEO for e-commerce webhook pages with our comprehensive guide. Learn how to optimize your webhook page, improve developer experience, and boost webhook integration in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-webhook-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce SDK Pages",
+    description: "Master SEO for e-commerce SDK pages with our comprehensive guide. Learn how to optimize your SDK page, improve developer experience, and boost SDK adoption in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-sdk-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Integration Pages",
+    description: "Master SEO for e-commerce integration pages with our comprehensive guide. Learn how to optimize your integration page, improve developer experience, and boost integration adoption in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-integration-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Developer Portal Pages",
+    description: "Master SEO for e-commerce developer portal pages with our comprehensive guide. Learn how to optimize your developer portal page, improve developer experience, and boost developer engagement in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-developer-portal-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Testing Pages",
+    description: "Master SEO for e-commerce testing pages with our comprehensive guide. Learn how to optimize your testing page, improve developer experience, and boost testing adoption in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-testing-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Debugging Pages",
+    description: "Master SEO for e-commerce debugging pages with our comprehensive guide. Learn how to optimize your debugging page, improve developer experience, and boost debugging adoption in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-debugging-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Monitoring Pages",
+    description: "Master SEO for e-commerce monitoring pages with our comprehensive guide. Learn how to optimize your monitoring page, improve developer experience, and boost monitoring adoption in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-monitoring-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Analytics Pages",
+    description: "Master SEO for e-commerce analytics pages with our comprehensive guide. Learn how to optimize your analytics page, improve data visualization, and boost analytics adoption in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-analytics-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Reporting Pages",
+    description: "Master SEO for e-commerce reporting pages with our comprehensive guide. Learn how to optimize your reporting page, improve data presentation, and boost reporting adoption in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-reporting-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Dashboard Pages",
+    description: "Master SEO for e-commerce dashboard pages with our comprehensive guide. Learn how to optimize your dashboard page, improve data visualization, and boost dashboard adoption in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-dashboard-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Data Visualization Pages",
+    description: "Master SEO for e-commerce data visualization pages with our comprehensive guide. Learn how to optimize your data visualization page, improve user experience, and boost data visualization adoption in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-data-visualization-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Business Intelligence Pages",
+    description: "Master SEO for e-commerce business intelligence pages with our comprehensive guide. Learn how to optimize your business intelligence page, improve data insights, and boost business intelligence adoption in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-business-intelligence-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Machine Learning Pages",
+    description: "Master SEO for e-commerce machine learning pages with our comprehensive guide. Learn how to optimize your machine learning page, improve AI capabilities, and boost machine learning adoption in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-machine-learning-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Artificial Intelligence Pages",
+    description: "Master SEO for e-commerce artificial intelligence pages with our comprehensive guide. Learn how to optimize your AI page, improve AI capabilities, and boost AI adoption in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-artificial-intelligence-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Automation Pages",
+    description: "Master SEO for e-commerce automation pages with our comprehensive guide. Learn how to optimize your automation page, improve automation capabilities, and boost automation adoption in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-automation-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Workflow Pages",
+    description: "Master SEO for e-commerce workflow pages with our comprehensive guide. Learn how to optimize your workflow page, improve process management, and boost workflow adoption in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-workflow-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Integration Hub Pages",
+    description: "Master SEO for e-commerce integration hub pages with our comprehensive guide. Learn how to optimize your integration hub page, improve integration management, and boost integration adoption in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-integration-hub-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce API Gateway Pages",
+    description: "Master SEO for e-commerce API gateway pages with our comprehensive guide. Learn how to optimize your API gateway page, improve API management, and boost API adoption in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-api-gateway-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Microservices Pages",
+    description: "Master SEO for e-commerce microservices pages with our comprehensive guide. Learn how to optimize your microservices page, improve service management, and boost microservices adoption in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-microservices-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Container Pages",
+    description: "Master SEO for e-commerce container pages with our comprehensive guide. Learn how to optimize your container page, improve container management, and boost container adoption in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-container-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Kubernetes Pages",
+    description: "Master SEO for e-commerce Kubernetes pages with our comprehensive guide. Learn how to optimize your Kubernetes page, improve orchestration management, and boost Kubernetes adoption in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-kubernetes-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce DevOps Pages",
+    description: "Master SEO for e-commerce DevOps pages with our comprehensive guide. Learn how to optimize your DevOps page, improve development operations, and boost DevOps adoption in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-devops-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Cloud Infrastructure Pages",
+    description: "Master SEO for e-commerce cloud infrastructure pages with our comprehensive guide. Learn how to optimize your cloud infrastructure page, improve cloud management, and boost cloud adoption in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-cloud-infrastructure-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Serverless Pages",
+    description: "Master SEO for e-commerce serverless pages with our comprehensive guide. Learn how to optimize your serverless page, improve serverless management, and boost serverless adoption in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-serverless-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
+  },
+  {
+    title: "The Complete Guide to SEO for E-commerce Edge Computing Pages",
+    description: "Master SEO for e-commerce edge computing pages with our comprehensive guide. Learn how to optimize your edge computing page, improve edge management, and boost edge computing adoption in 2025.",
+    url: "/blog/the-complete-guide-to-seo-for-e-commerce-edge-computing-pages",
+    image: "/blog/google-seo.jpg",
+    publishedDate: "January 16, 2025",
+    readingTime: "10 minutes",
+    category: "SEO Strategy"
   }
 ]
 
@@ -502,8 +1069,8 @@ export default function BlogPage() {
         <div className="container">
           <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
             <h1 style={{ fontSize: '3rem', marginBottom: '1rem', color: '#333' }}>
-              SEO Blog
-            </h1>
+          SEO Blog
+        </h1>
             <p style={{ fontSize: '1.2rem', color: '#666', maxWidth: '600px', margin: '0 auto' }}>
               Stay updated with the latest SEO trends, digital marketing strategies, and industry insights to grow your business online.
             </p>
@@ -554,10 +1121,10 @@ export default function BlogPage() {
           }}>
             {blogPosts.map((post, index) => (
               <article key={index} style={{
-                background: 'white',
+              background: 'white', 
                 borderRadius: '12px',
                 boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
-                overflow: 'hidden',
+              overflow: 'hidden', 
                 transition: 'transform 0.3s ease, box-shadow 0.3s ease'
               }}
               onMouseOver={(e) => {
@@ -571,39 +1138,39 @@ export default function BlogPage() {
               >
                 <Link href={post.url} style={{ textDecoration: 'none', color: 'inherit' }}>
                   <div style={{ position: 'relative', height: '200px', overflow: 'hidden' }}>
-                    <Image
-                      src={post.image}
-                      alt={post.title}
+                <Image
+                  src={post.image}
+                  alt={post.title}
                       fill
                       style={{ objectFit: 'cover' }}
-                    />
-                    <div style={{
+                />
+                <div style={{ 
                       position: 'absolute',
                       top: '1rem',
                       left: '1rem',
-                      background: '#7c3aed',
-                      color: 'white',
-                      padding: '0.25rem 0.75rem',
-                      borderRadius: '15px',
+                    background: '#7c3aed', 
+                    color: 'white', 
+                    padding: '0.25rem 0.75rem', 
+                    borderRadius: '15px', 
                       fontSize: '0.8rem',
                       fontWeight: '500'
-                    }}>
-                      {post.category}
+                  }}>
+                    {post.category}
                     </div>
-                  </div>
+                </div>
                   <div style={{ padding: '1.5rem' }}>
-                    <h2 style={{ 
+                <h2 style={{ 
                       fontSize: '1.3rem', 
                       marginBottom: '0.75rem', 
-                      color: '#333',
+                  color: '#333',
                       lineHeight: '1.4'
-                    }}>
-                      {post.title}
-                    </h2>
-                    <p style={{ 
-                      color: '#666', 
+                }}>
+                    {post.title}
+                </h2>
+                <p style={{ 
+                  color: '#666', 
                       marginBottom: '1rem',
-                      lineHeight: '1.6',
+                  lineHeight: '1.6', 
                       fontSize: '0.95rem'
                     }}>
                       {post.description}
@@ -611,7 +1178,7 @@ export default function BlogPage() {
                     <div style={{ 
                       display: 'flex', 
                       justifyContent: 'space-between', 
-                      alignItems: 'center',
+                    alignItems: 'center',
                       fontSize: '0.85rem',
                       color: '#888'
                     }}>
@@ -620,8 +1187,8 @@ export default function BlogPage() {
                     </div>
                   </div>
                 </Link>
-              </article>
-            ))}
+            </article>
+          ))}
           </div>
 
           {/* Call to Action */}
